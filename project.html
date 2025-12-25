@@ -1,0 +1,132 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Project Saya</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="project.html">Project</a>
+        <a href="galeri.html">Galeri</a>
+        <a href="playlist.html">playlist</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+</header>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        section {
+            padding: 40px 80px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .project {
+            display: flex;
+            gap: 30px;
+            background-color: white;
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .project img {
+            width: 250px;
+            border-radius: 8px;
+        }
+
+        .project h3 {
+            margin-top: 0;
+        }
+
+        .contact {
+            background-color: #e9ecf1;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #1f3c88;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                padding: 30px 20px;
+            }
+
+            .project {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .project img {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <h2>Berikut beberapa project yang saya buat</h2>
+
+    <div class="project">
+        <img src="Project1.jpg" alt="Project 1">
+        <div>
+            <h3>Project 1</h3>
+            <p>
+                Saya membuat program berupa sebuah halaman web dasar
+                menggunakan bahasa HTML dan CSS.
+            </p>
+        </div>
+    </div>
+
+    <div class="project">
+        <img src="Project2.jpg" alt="Project 2">
+        <div>
+            <h3>Project 2</h3>
+            <p>
+                Saya membuat program berupa formulir isian data
+                untuk penerimaan karyawan baru menggunakan HTML.
+            </p>
+        </div>
+    </div>
+
+    <div class="project">
+        <img src="Project3.jpg" alt="Project 3">
+        <div>
+            <h3>Project 3</h3>
+            <p>
+                Saya membuat halaman web interaktif sederhana
+                untuk menginput dan menampilkan data mahasiswa
+                beserta usia yang dihitung secara otomatis.
+            </p>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy; 2025 Website-DinnaNurHasanah</p>
+</footer>
+
+</body>
+</html>
